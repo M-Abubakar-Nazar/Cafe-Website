@@ -1,0 +1,169 @@
+/* .outer-container{
+    border: 2px dashed black;
+   position: relative;
+   padding-top: 10px;
+   padding-bottom: 180px;
+   padding-left: 10px;
+   margin-right: 10px;
+   margin-left: 10px;
+   max-width: 80%;
+  
+  
+
+}
+
+.inner-container{
+    border: 2px solid blue;
+    position: absolute;
+    top: 75px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+   padding: 5px;
+   max-width: 70%;
+  
+  
+}
+
+
+.within-inner-container{
+    border: 2px dashed green;
+    position: fixed;
+   padding-bottom:40px ;
+   padding-top: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+    left: 90px;
+    right: 80px;
+  
+   max-width: 50%;
+
+} */
+/* 
+.outer{
+    position: relative;
+    border: 3px solid blueviolet;
+    max-width: 80%;
+    margin: 50px;
+    padding: 50px;
+    
+}
+
+.inner{
+    position:absolute;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 20px;
+    right: 30px;
+
+}
+
+li{
+    margin-top: 3%;
+     list-style: disc;
+} */
+
+/* All abobe the practice of the position properties like absolute , relative , fixed etc */
+
+.container{
+
+    display:flex;
+    padding: 25px;   
+     align-items:center;
+    flex-direction:column;
+    background-image: url(black-paper-background.jpg);
+    background-size: cover;
+   
+    
+
+  border: 4px solid rgb(136, 124, 53);
+}
+
+.menu{
+   
+    background-color: rgb(212, 209, 197);
+    min-width: 100px;
+    border-radius: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 8px;
+   padding-top: 8px;
+    text-align-last: center;
+    border: 3.5px solid rgb(155, 139, 46);
+    box-shadow:  0 7px 9px rgb(214, 193, 111); 
+    margin-bottom: 20px;
+   
+    
+   
+    
+
+    
+
+}
+
+.items{
+
+    border: 5px solid rgb(156, 138, 36);
+       background-image: url(whiteBoard-background.jpg);
+        background-size: cover;
+
+    /* Allignmnet ko fi kre ga bss  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+       
+       min-width: 300px;
+       line-height:30px;
+       padding-left: 20px;
+       padding-bottom: 10px;
+       padding-top: 15px;
+
+       
+       font-size:18px;   
+       box-shadow: 0 6px 10px rgb(214, 193, 111); 
+       
+
+}
+
+
+
+
+.items >div{
+    width: 170px;
+
+   
+}
+
+.items ul{
+   
+   
+    margin: 6%;
+    list-style:disc;
+    padding: 7px;
+    font-size:medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+    
+    
+}
+
+h3{
+     font-family: 'Times New Roman', Times, serif;
+   
+}
+
+    
+.price{
+   
+    color: rgb(90, 80, 27);
+    font-size: small;
+    padding-left: 13px;
+    
+    
+}
+
+
+
+
