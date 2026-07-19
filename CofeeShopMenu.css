@@ -65,14 +65,59 @@ li{
 
 /* All abobe the practice of the position properties like absolute , relative , fixed etc */
 
+
+.head
+{
+   
+  background: linear-gradient(rgba(245, 240, 230, 0.85), rgba(172, 162, 141, 0.85)),
+              url(black-paper-background.jpg);
+  background-size: cover;
+  border: 3px solid  rgb(136, 124, 53) ;
+  border-bottom: none;
+ 
+    
+}
+
+.info{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(58, 51, 3);
+    color:white;
+    padding: 10px;
+    border-top: 4px solid rgb(136, 124, 53);
+    border-right: 4px solid  rgb(136, 124, 53);
+    border-left: 4px solid  rgb(136, 124, 53);
+ 
+
+}
+
+.logo{
+    display: block;
+    width: auto;
+    height: 130px;
+    
+   
+}
+
+
+
 .container{
 
+
     display:flex;
-    padding: 25px;   
+    padding-top: 30px;   
+    padding-bottom: 25px;   
+    padding-left: 25px;   
+    padding-right: 25px;   
      align-items:center;
     flex-direction:column;
     background-image: url(black-paper-background.jpg);
     background-size: cover;
+   
    
     
 
@@ -82,16 +127,12 @@ li{
 .menu{
    
     background-color: rgb(212, 209, 197);
-    min-width: 100px;
-    border-radius: 50px;
-   padding-left: 20px;
-   padding-right: 20px;
-   padding-bottom: 8px;
-   padding-top: 8px;
+    min-width: 90px;
+    border-radius: 30px;
     text-align-last: center;
     border: 3.5px solid rgb(155, 139, 46);
     box-shadow:  0 7px 9px rgb(214, 193, 111); 
-    margin-bottom: 20px;
+    margin-bottom: 15px;
    
     
    
@@ -164,6 +205,22 @@ h3{
     
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+ 
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    color: blue;
+    text-decoration: none;
+    
+}
 
 
 
