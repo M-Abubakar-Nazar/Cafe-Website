@@ -1,0 +1,117 @@
+
+
+.head
+{
+   
+  background: linear-gradient(rgba(245, 240, 230, 0.85), rgba(172, 162, 141, 0.85)),
+              url(cofee-storyBG.jpg);
+  background-size: cover;
+  border: 3px solid  rgb(136, 124, 53) ;
+  border-bottom: none;
+ 
+    
+}
+
+.logo{
+    display: block;
+    width: auto;
+    height: 130px;
+    
+   
+}
+
+.info{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(78, 69, 8);
+    color:white;
+    padding: 10px;
+    border-top: 4px solid rgb(136, 124, 53);
+    border-right: 4px solid  rgb(136, 124, 53);
+    border-left: 4px solid  rgb(136, 124, 53);
+ 
+
+}
+
+
+
+.Container{
+    display: grid;
+    grid-template-columns: 250px 2fr ;
+    
+    grid-template-areas:  
+    "sucess main-content"
+    "Quote Quote";
+     gap: 15px;    
+    
+   border: 3px solid  rgb(131, 117, 40) ;
+    background-image: url(black-paper-background.jpg);
+    background-size: cover;
+    
+    padding: 15px;
+    align-items: center;
+    
+
+}
+
+.about
+{
+    margin-left: 40%;
+}
+
+.SucessStory{
+    grid-area: sucess;
+    
+    background: linear-gradient(rgba(245, 240, 230, 0.85), rgba(172, 162, 141, 0.85)),
+              url(cofee-storyBG.jpg);
+    background-size: cover;
+    border: 3px solid rgb(163, 144, 37);
+   
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.main-section{
+    grid-area: main-content;
+   background: linear-gradient(rgba(245, 240, 230, 0.85), rgba(172, 162, 141, 0.85)),
+              url(cofeeAbourBG.jpg);
+    background-size: cover;
+     border: 3px solid  rgb(163, 144, 37);
+   
+    padding: 15px;
+   
+   
+    margin-bottom: 15px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: blue;
+
+}
+
+
+.quote{
+    grid-area: Quote;
+    background: linear-gradient(rgba(245, 240, 230, 0.85), rgba(172, 162, 141, 0.85)),
+              url(cofeeAbourBG.jpg);
+              background-size: cover;
+              margin-top: 0;
+        padding: 20px;
+        border-radius: 50px;
+        text-align: center;
+    
+        border: 3px solid  rgb(163, 144, 37); ;
+}
+
+
