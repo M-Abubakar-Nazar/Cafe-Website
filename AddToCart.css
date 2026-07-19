@@ -4,13 +4,14 @@
 
 body{
      
-  background-image: url(cofeeAbourBG.jpg);
+  background-image: url(cofee-storyBG.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
    
-    border: 3px solid  rgb(136, 124, 53)
-    
+    border: 3px solid  rgb(109, 96, 25);
+    padding-bottom: 20px;
+    margin-bottom: 15px;
    
    
 }
@@ -18,8 +19,8 @@ body{
 .head
 {
    
-  background: linear-gradient(rgba(245, 240, 230, 0.55), rgba(255, 250, 238, 0.45)),
-              url(cofee-storyBG.jpg);
+  background: linear-gradient(rgba(245, 240, 230, 0.85), rgba(172, 162, 141, 0.85)),
+              url(black-paper-background.jpg);
   background-size: cover;
  
  
@@ -81,6 +82,8 @@ h1{
  border: 3px solid  rgb(136, 124, 53) ;;
   width: 360px;
   background: rgba(255, 255, 255, 0.90);
+  margin-left:  10px;
+   margin-right:  10px;
   
 }
 
@@ -103,50 +106,78 @@ h3{
   box-shadow: 0 3px 8px gold;   
 }
 
-.cake {
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-template-areas: 
+  " espr arab cort"
+  "drip  lat moch";
+  gap: 10px;
+
+}
+
+.espresso{
   
+  grid-area: espr;
   padding: 10px;
   border-radius: 5px;
   border: 3px solid  rgb(136, 124, 53) ;
   margin-bottom: 10px;
+  margin-left:  10px;
+   margin-right:  10px;
   
 }
 
-.Juice{
+.Arabica{
  
+  grid-area: arab;
   padding: 10px;
   border-radius: 5px;
    border-radius: 5px;
   border: 3px solid  rgb(136, 124, 53) ;
    margin-bottom: 10px;
+   margin-left:  10px;
+   margin-right:  10px;
 }
 
 
-.Sandwitch{
+.cortado{
  
+  grid-area: cort;
   padding: 10px;
   border-radius: 5px;
    border-radius: 5px;
   border: 3px solid rgb(136, 124, 53);
    margin-bottom: 10px;
+   margin-left:  10px;
+   margin-right:  10px;
 }
 
-.pizza{
- 
+.drippy{
+
+ grid-area: drip;
   padding: 10px;
   border-radius: 5px;
    border: 3px solid rgb(136, 124, 53) ;
    margin-bottom: 10px;
+   margin-left:  10px;
+   margin-right:  10px;
 }
 
-.Cookies-Bars{
+.latte{
 
+  grid-area: lat;
   position: relative;
    padding: 10px;
   border-radius: 5px;
+
    border: 3px solid rgb(136, 124, 53) ;
+   
    margin-bottom: 5px;
-   margin-top:  10px;
+   margin-left:  10px;
+   margin-right:  10px;
 }
 
 .absolute{
@@ -161,13 +192,16 @@ h3{
 
 }
 
-.Pastries{
+.mocha{
 
+  grid-area: moch;
    padding: 10px;
   border-radius: 5px;
    border: 3px solid rgb(136, 124, 53);
    margin-bottom: 5px;
-   margin-top:  10px;
+   margin-left:  10px;
+   margin-right:  10px;
+
 }
 
 ol {
@@ -213,14 +247,14 @@ ol li:nth-child(2){
 }
 
 .textbox{
-  border: 1px solid black;
-  margin-left: 70%;
+  border: 1.5px solid rgb(136, 124, 53);
+  margin-left: 50%;
 }
 
 .Quantity{
 
-  margin-left: 70%;
-  margin-bottom: 3px;
+  margin-left: 52%;
+  margin-bottom: 10px;
 }
 
 .button{
@@ -234,7 +268,7 @@ position: static;
   padding-left: 22px;
   padding-right: 22px;
   margin-top: 7px;
-  margin-left: 85%;
+  margin-left: 45%;
   border: 3px solid rgb(176, 147, 94);
   
 }
@@ -253,10 +287,10 @@ position: static;
 }
 
 
-.cake, .Juice, .pizza,.Sandwitch,.Cookies-Bars,.Pastries{
+.drippy, .mocha, .Arabica,.cortado,.latte,.espresso{
    
-   background: linear-gradient(rgba(245, 240, 230, 0.85), rgba(255, 237, 198, 0.85)),
-              url(black-paper-background.jpg);
+  background: linear-gradient(rgba(245, 240, 225, 0.75), rgba(245, 240, 225, 0.75)),
+              url('wood-texture.jpg'); 
   background-size: cover;
     
     border-radius: 25px;
