@@ -1,8 +1,46 @@
 
 body{
-    background-image: url(black-paper-background.jpg);
+    background-image: url(cofee-storyBG.jpg);
       background-size: cover;
+      border: 3px solid  rgb(136, 124, 53) ;
+     
 }
+
+.head
+{
+   
+  background: linear-gradient(rgba(245, 240, 230, 0.85), rgba(172, 162, 141, 0.85)),
+              url(cofee-storyBG.jpg);
+  background-size: cover;
+ 
+ 
+    
+}
+
+.logo{
+    display: block;
+    width: auto;
+    height: 130px;
+    
+   
+}
+
+.info{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+   margin-top: 0;
+    background-color: rgb(78, 69, 8);
+    color:white;
+    padding: 10px;
+    border-top: 4px solid rgb(136, 124, 53);
+    
+    border-bottom: 4px solid  rgb(136, 124, 53);
+ 
+
+}
+
 .header{
       
        
@@ -76,4 +114,14 @@ p{
 
 h1{
     font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: blue;
 }
